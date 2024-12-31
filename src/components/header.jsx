@@ -37,8 +37,7 @@ const Header = () => {
                             </div>
                             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                                 <button type="button" className="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold" onClick={handleClick}>Resume</button>
-                                <button type="button" className="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold">Contact</button>
-                            </div>
+                                <a className="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold" href="#contact">Contact</a>                            </div>
                         </div>
                     </div>
                 </div>
