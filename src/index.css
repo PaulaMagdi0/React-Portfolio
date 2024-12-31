@@ -1,0 +1,49 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.nav-link {
+    color: black; 
+}
+  
+.nav-link:hover {
+    color: darkgray; 
+}
+  
+.nav-pills .nav-link.active {
+    background-color: transparent; 
+    color: darkgray; 
+}
+
+header {
+    font-size: larger;
+}
+
+.backg {
+	background: linear-gradient(-45deg, #332926, #bd4372, #555b5e, #1e312d);
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.project-image {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+#socials-container a:hover {
+    color: #007bff; 
+    transition: color 0.3s ease;
+}
